@@ -5,5 +5,5 @@ load_dotenv()
 
 first_chatmodel = ChatOpenAI(model="gpt-4")
 
-result = first_chatmodel.invoke("Who have Highest run in IPl?")
+result = first_chatmodel.invoke("Who is Gojo Satoru?")
 print(result.content)
