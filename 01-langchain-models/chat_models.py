@@ -5,5 +5,5 @@ load_dotenv()
 
 first_chatmodel = ChatOpenAI(model="gpt-4")
 
-result = first_chatmodel.invoke("Who is Gojo Satoru?")
+result = first_chatmodel.invoke("Who is Goku in Dragon Ball Z?")
 print(result.content)
