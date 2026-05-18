@@ -14,5 +14,5 @@ chat_template = ChatPromptTemplate(
     ]
 )
 
-prompt = chat_template.invoke({"Cars": "Range Rover", "Bike": "Triumph speed 400"})
+prompt = chat_template.invoke({"Cars": "Range Rover", "Bike": "Triumph speed 400 "})
 print(prompt)
